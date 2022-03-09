@@ -206,6 +206,9 @@ defmodule Explorer.SmartContract.Solidity.Verifier do
           ""
       end
 
+    IO.puts("TEST25478412")
+    IO.puts(Kernel.inspect(blockchain_created_tx_input))
+
     %{
       "metadata_hash" => _metadata_hash,
       "bytecode" => blockchain_bytecode_without_whisper,
